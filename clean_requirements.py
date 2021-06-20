@@ -17,6 +17,8 @@ def process(req_file):
                     reqoutf.write(head + "\n")
                 else:
                     reqoutf.write(content)
+    print("done.")
+    print("output file: " + req_out_file)
 
 if __name__ == "__main__":
     args = parser.parse_args()

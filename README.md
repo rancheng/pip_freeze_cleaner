@@ -1,4 +1,4 @@
-# Clean Requirements
+# pip freeze requirement cleaner
 
 Clean the `requirments.txt` generated from `pip freeze` which contains something like this:
 
